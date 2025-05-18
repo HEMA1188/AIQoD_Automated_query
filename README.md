@@ -29,7 +29,7 @@ This system allows users to query data stored in a MongoDB database using natura
 1.  **Prepare your CSV data:** Place your CSV file (e.g., `sample_data.csv`) in the same directory as the Python script or provide the correct path in the `main()` function.
 2.  **Run the Python script:**
     ```bash
-    Automated_LLM_Query.ipynb
+    sample.py
     ```
 3.  **Enter your queries:** The script will prompt you to enter your data query in natural language. For example:
     ```
@@ -42,7 +42,7 @@ This system allows users to query data stored in a MongoDB database using natura
 
 ## Code Documentation
 
-The Python script `Automated_LLM_Query.ipynb` contains the following key functions:
+The Python script `sample.py` contains the following key functions:
 
 * `load_csv_to_mongodb(csv_file_path, mongo_host, database_name, collection_name)`: Loads data from a specified CSV file into a MongoDB collection.
 * `generate_mongodb_query(user_input, collection_fields)`: Takes a user's natural language query and the fields of the MongoDB collection as input and uses the Ollama LLM to generate a MongoDB `find()` query string (as a Python dictionary).
