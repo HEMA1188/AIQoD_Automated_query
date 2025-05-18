@@ -1,0 +1,5 @@
+ProductID,ProductName,Category,Price,Rating,ReviewCount,Stock,Discount,Brand,LaunchDate
+104,Running Shoes,Sports,49.99,4.3,500,200,20%,Nike,10-02-2022
+107,Coffee Maker,Home & Kitchen,89.99,4.1,240,90,8%,Keurig,15-08-2021
+108,Yoga Mat,Sports,29.99,4.4,320,300,5%,Manduka,05-01-2022
+110,Vacuum Cleaner,Home & Kitchen,129.99,4.3,290,70,10%,Dyson,20-10-2021
